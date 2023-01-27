@@ -16,7 +16,7 @@ spec:
         app: mysql
     spec:
       containers:
-      - image: uditopstree/devtron:mysql1
+      - image: uditopstree/devtron:mysql
         name: mysql
         env:
           # Use secret in real usage
